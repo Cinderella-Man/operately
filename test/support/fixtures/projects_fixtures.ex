@@ -134,9 +134,9 @@ defmodule Operately.ProjectsFixtures do
       attrs
       |> Enum.into(%{
         content: %{
-          whatWentWell: RichText.rich_text("some content"),
-          whatDidYouLearn: RichText.rich_text("some content"),
-          whatCouldHaveGoneBetter: RichText.rich_text("some content"),
+          "whatWentWell" => RichText.rich_text("some content"),
+          "whatDidYouLearn" => RichText.rich_text("some content"),
+          "whatCouldHaveGoneBetter" => RichText.rich_text("some content"),
         },
         closed_at: DateTime.utc_now(),
       })
